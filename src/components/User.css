@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h5, h6 {
+    margin: 0;
+}
+
+.User {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+    background: #8d93ab;
+}
+
+.User:hover{
+    background: #ff8e6e;
+}
+
+.UserPic {
+    max-height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.UserText {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #393b44;
+    margin: 0 0 0 10px;
+}

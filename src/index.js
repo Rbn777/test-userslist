@@ -2,11 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Firebase from "./conf/firebase";
 import * as serviceWorker from "./serviceWorker";
 
 function MyPearl() {
-  Firebase.init();
   return <App />;
 }
 

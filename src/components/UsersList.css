@@ -1,0 +1,30 @@
+body {
+    background-color: #393b44;
+}
+
+.SelectBox {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 30px;
+    color: #8d93ab;
+}
+
+.select-style {
+    border: 1px solid #8d93ab;
+    width: 100px;
+    color: #8d93ab;
+    border-radius: 3px;
+    background-color: #393b44;
+    position: relative;
+}
+
+.UsersList {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#countries_select {
+    margin-left: 10px;
+}

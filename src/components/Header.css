@@ -1,0 +1,20 @@
+h1 {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+h1:hover {
+  color: #ff8e6e;
+}
+
+.header {
+  background-color: #393b44;
+  min-height: 75px;
+  padding-left: 30px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  color: white;
+  }

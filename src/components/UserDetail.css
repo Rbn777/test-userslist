@@ -1,0 +1,28 @@
+h6 {
+    margin: 0;
+}
+
+.UserDetail {
+    max-width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: #f2f2f2;
+}
+
+.UserDetailPic {
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+}
+
+.UserDetailText {
+    color: #393b44;
+    margin-left: 20px;
+}
+
+.ParagraphArea {
+    line-height: 1.5rem;
+    font-size: small;
+    margin-top: 40px;
+}
