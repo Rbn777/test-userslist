@@ -46,6 +46,7 @@ const UsersList = () => {
       </div>
       <div className="UsersList">
           {users.filter((user) => {
+            // eslint-disable-next-line eqeqeq
             return user.location.country == filtered || filtered == "All" })
             .map((user) => {
               return (
